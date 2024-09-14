@@ -1,8 +1,8 @@
 function App() {
-    return (
+  return (
     <div>
-        <FirstComponent />
-        <NamedComponent username="Beth" />
+      <FirstComponent />
+      <NamedComponent name="Bob" />
     </div>
-    );  
+  );
 }
