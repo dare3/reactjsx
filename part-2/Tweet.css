@@ -1,0 +1,38 @@
+/* Basic styling for the Tweet component */
+.tweet {
+    border: 1px solid #e1e8ed;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px 0;
+    max-width: 500px;
+    background-color: #f5f8fa;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .tweet-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .tweet-header strong {
+    font-size: 1.2em;
+    color: #14171a;
+  }
+  
+  .tweet-header span {
+    color: #657786;
+    margin-left: 5px;
+  }
+  
+  .tweet-date {
+    font-size: 0.9em;
+    color: #aab8c2;
+  }
+  
+  .tweet-message {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #14171a;
+  }
+  
